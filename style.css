@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+
+    max-width: 1600px;
+}
+
+.main-section{
+
+    max-width: 1280px;
+    height: 1100px;
+    margin: auto;
+    background-image: url('bg-image.svg');
+
+}
+
+.Barnd-img{
+
+    margin: 50px 0px 0px 120px ;
+
+}
+.text{
+ 
+    max-width: 40%;
+    margin: auto;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+
+}
+
+.txt-header{
+    font-family: "Open Sans", sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-top: 90px;
+
+
+}
+
+.text-text{
+
+    font-family: "Open Sans", sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    font-size:25px ;
+
+}
+
+.From{
+    max-width: 50%;
+    margin: auto;
+    background-color: hsla(215, 23%, 84%, 0.123);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    font-family:"Open Sans", sans-serif ;
+
+}
+
+.container{
+justify-content: center;
+display: flex;
+justify-content: space-around;
+gap: 10px;
+padding: 10px;
+
+}
+
+.Container-input>span{
+margin-right: 240px;
+font-family:"Open Sans", sans-serif ;
+padding: 5px;
+color: white;
+}
+
+
+.Container-input>.Name{
+    margin-top: 10px;
+    padding: 15px;
+    width: 250px;
+    border-radius: 15px ;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family:"Open Sans", sans-serif ;
+
+}
+
+.container-selection{
+
+    width: 100%;
+    margin: 20px 0px 20px;
+
+}
+
+.container-selection> select{
+    margin-top: 5px;
+    padding: 20px;
+    width: 280px;
+    border-radius: 15px;
+    font-family:"Open Sans", sans-serif ;
+    border: none;
+    outline: none;
+    font-size: 20px;
+
+}
+
+.container-selection>span{
+
+    color: white;
+    margin-right: 170px;
+
+}
+
+
+.Message>span{
+
+    color: white;
+    margin-right: 500px ;
+    padding-bottom: 10px;
+    font-family:"Open Sans", sans-serif ;
+
+}
+.Message>textarea{
+  width: 90%;
+  border: none;
+  border-radius: 10px;
+  font-family:"Open Sans", sans-serif ;
+  outline: none;
+  padding: 10px;
+}
+
+.btn-primary{
+   margin-top: 20px;
+    width: 90%;
+    padding: 20px;
+    color: blue;
+    font-size: larger;
+    font-weight: bolder;
+    font-family:"Open Sans", sans-serif ;
+    border-radius: 10px;
+    border: none;
+
+}
+
+
+
+/* Media Query */
+
+
+
+@media screen and (max-width:1121px) {
+    
+
+    .From{
+        max-width: 80%;
+        margin: auto;
+        background-color: hsla(215, 23%, 84%, 0.123);
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px;
+        font-family:"Open Sans", sans-serif ;
+    
+    }
+
+    .Container-input>.Name{
+        margin-top: 10px;
+        padding: 15px;
+        width: 90%;
+        border-radius: 15px ;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        font-family:"Open Sans", sans-serif ;
+    
+    }
+    .container-selection>span{
+
+        color: white;
+        margin-right:20em;
+    
+    }
+    .Container-input>span{
+        margin-right: 30em;
+        font-family:"Open Sans", sans-serif ;
+        padding: 5px;
+        color: white;
+        }
+    
+
+    .container-selection> select{
+        margin-top: 5px;
+        padding: 20px;
+        width: 100%;
+        border-radius: 15px;
+        font-family:"Open Sans", sans-serif ;
+        border: none;
+        outline: none;
+        font-size: 20px;
+    
+    }
+
+
+    .text {
+        max-width: 100%; 
+        margin: auto;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        color: white;
+    }
+
+    .container {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10px;
+        flex-direction: column;
+    }
+   
+}
